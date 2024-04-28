@@ -11,6 +11,14 @@ This documentation contains the approach and steps needed for VAPT.
 4. Penetration Testing<br>
     Penetration testing will never be an exact science where a complete list of all possible issues that should be tested can de defined. Indeed penetration is only an appropriate technique to test the security of web applications under certain circumstances.
 
+### Flow Diagram for VAPT
+![Flow Diagram](assets/flow.png)
+1. Gather all the possible Information
+2. Follow the different phases
+3. Exploit all the vulnerabilities 
+4. Use the output of a vulnerability to re-asses application
+5. Report the Vulnerabilities
+
 OWASP Web Application Penetration Checklist - [Link](https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Web_Application_Penetration_Checklist_v1_1.pdf) => RFP Template, Benchmarks, Testing Checklist
 
 ### Lab Setup
