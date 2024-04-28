@@ -1,11 +1,22 @@
 # Vulnerability Assessment and Penetration Testing
 This documentation contains the approach and steps needed for VAPT.
 
+##### Testing Techniques
+1. Manual Inspections & Reviews <br>
+    Manual inspections are human reviews that typically test the security implications of people, policies, and processes. Manual inspections can also include inspection of technology decisions such as architectural designs.
+2. Threat Modeling <br>
+    It can be seen as risk assessment for applications. In fact, it enables the designer to develop mitigation strategies for potential vulnerabilities. It is recommended that all applications have a threat model developed and documented. (As early as possible in SDLC)
+3. Code Review<br>
+    Source code review is the process of manually checking the source code of a web application for security issues. Many serious security vulnerabilities cannot be detected with any other form of analysis or testing. As the popular saying goes “if you want to know what’s really going on, go straight to the source.”
+4. Penetration Testing<br>
+    Penetration testing will never be an exact science where a complete list of all possible issues that should be tested can de defined. Indeed penetration is only an appropriate technique to test the security of web applications under certain circumstances.
+
+OWASP Web Application Penetration Checklist - [Link](https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Web_Application_Penetration_Checklist_v1_1.pdf) => RFP Template, Benchmarks, Testing Checklist
+
 ### Lab Setup
 Linux Distribution => Kali Linux (Debian) - [Download](https://cdimage.kali.org/kali-2024.1/kali-linux-2024.1-installer-amd64.iso)<br>
 Hypervisior => VMware Workstation 17 Player - [Download](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1751&productId=1377&rPId=117008)<br>
 Using Metasploitable for testing purpose - [Download](https://docs.rapid7.com/metasploit/metasploitable-2) <br>
-
 
 **Rule 1:** Always use a Virtual Machine to do VAPT.<br>
 Reason for using VM:
@@ -39,7 +50,7 @@ Gain the Control over Application & Database
 1. Login to metasploitable2 > msfadmin/msfadmin
 2. `ifconfig` > Get the IP address of the Metasploitable
 3. Setup Kali Linux => The attack machine
-`
+
 ### Vulnerabilities
 
 **Rule 3:** DIE (Discover - Intercept - Exploit)
@@ -55,3 +66,4 @@ Other Web Vulnerabilities - [Link](https://drive.google.com/file/d/1T_kTLNWVA2uh
 3. Detailed Linux Commands Explaination - [Explainshell](https://explainshell.com)
 4. DAMN VULNERABLE WEB APPLICATION (DVWA) - [GitHub](https://github.com/digininja/DVWA)
 5. VAPT Documentation by [Revanth](https://github.com/K-REVANTH) - [Document](https://docs.google.com/document/d/12U0AGqMa1BVCar6eaP-_AgwEXOc4ZQS8X7w1Qu2BDmw)
+6. OWASP Testing Guide - [Book](https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf)
