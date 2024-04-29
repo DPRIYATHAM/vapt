@@ -32,6 +32,11 @@ Reason for using VM:
 2. Easy to configure, and test accross different versions
 3. Easy to work on networks, saving state.
 
+* Use a Virtual environment for testing - [python3-virtualenv](https://www.kali.org/tools/python-virtualenv/)
+Setting Up Virtual Environment
+> python -m venv virtual
+> source virtual/bin/activate
+
 ![Kali VM](assets/kalivm.png)
 
 ### Aim
@@ -75,4 +80,3 @@ Other Web Vulnerabilities - [Link](https://drive.google.com/file/d/1T_kTLNWVA2uh
 4. DAMN VULNERABLE WEB APPLICATION (DVWA) - [GitHub](https://github.com/digininja/DVWA)
 5. VAPT Documentation by [Revanth](https://github.com/K-REVANTH) - [Document](https://docs.google.com/document/d/12U0AGqMa1BVCar6eaP-_AgwEXOc4ZQS8X7w1Qu2BDmw)
 6. OWASP Testing Guide - [Book](https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf)
-7. Guide for VAPT Analysis 
