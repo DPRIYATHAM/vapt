@@ -73,6 +73,20 @@ Gain the Control over Application & Database
 
 Other Web Vulnerabilities - [Link](https://drive.google.com/file/d/1T_kTLNWVA2uhPcZaVSVrbr2CveY8M3Hp/view)
 
+### VAPT Rules
+
+**Rule 1:** Always use a Virtual Machine to do VAPT.<br>
+Reason for using VM:
+1. Isolation from Host OS 
+2. Easy to configure, and test accross different versions
+3. Easy to work on networks, saving state.
+
+**Rule 2:** More Information => More Attack Surface <br>
+
+**Rule 3:** DIE (Discover - Intercept - Exploit)
+
+**Rule 4:** Don't blindly trust Automation tools - they can have False Positives also, test with multiple tools, use Knowledge.
+
 ### Some Useful Links:
 1. OWASP Cheatsheet - [Documentation](https://cheatsheetseries.owasp.org/index.html)
 2. Metasploitable is an 'intentionally vulnerable virtual machine' by Rapid7 - [Documentation](https://docs.rapid7.com/metasploit/quick-start-guide)
@@ -80,3 +94,6 @@ Other Web Vulnerabilities - [Link](https://drive.google.com/file/d/1T_kTLNWVA2uh
 4. DAMN VULNERABLE WEB APPLICATION (DVWA) - [GitHub](https://github.com/digininja/DVWA)
 5. VAPT Documentation by [Revanth](https://github.com/K-REVANTH) - [Document](https://docs.google.com/document/d/12U0AGqMa1BVCar6eaP-_AgwEXOc4ZQS8X7w1Qu2BDmw)
 6. OWASP Testing Guide - [Book](https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf)
+7. OWASP CheckList - [Pentest CheckList](https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Web_Application_Penetration_Checklist_v1_1.pdf)
+8. OWASP Web CheckList - [Checklist By 0xRadi](https://github.com/0xRadi/OWASP-Web-Checklist)
+9. Webapp CheckList - [Checklist By Hari](https://github.com/Hari-prasaanth/Web-App-Pentest-Checklist)
