@@ -59,4 +59,13 @@ Go to `OWASP 2013 > A1 Injection (Other) > HTML Via Cookie Injection > Capture D
 - PHPSESSID=`<meta http-equiv="refresh" content="5; URL=https://www.facebook.com"/>COOKIE_VALUE`
 - Redirected to `Facebook` after 5 Seconds
 ![alt text](assets/htmlicookie2.png)
+
+### Success
+
+### Hands-On - 3
+![alt text](assets/htmlistorage1.png)
+- Play with the input values.
+![alt text](assets/htmlstorage2.png)
+- We are able to add code snippets which are being executed and stored, when user visits - they will see it.
+
 ### Success
