@@ -56,7 +56,7 @@ Go to `OWASP 2013 > A1 Injection (Other) > HTML Via Cookie Injection > Capture D
 ![alt text](assets/htmlicookie1.png)
 - Here we can clearly see the `PHPSESSIONID`
 - Let's intercept and use it, but this time let's try to redirect it to another page.
-- PHPSESSID=<meta http-equiv="refresh" content="5; URL=https://www.facebook.com"/>COOKIE_VALUE
+- PHPSESSID=`<meta http-equiv="refresh" content="5; URL=https://www.facebook.com"/>COOKIE_VALUE`
 - Redirected to `Facebook` after 5 Seconds
 ![alt text](assets/htmlicookie2.png)
 ### Success
