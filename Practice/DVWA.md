@@ -34,6 +34,27 @@ $_DVWA[ 'db_port']      = getenv('DB_PORT') ?: '3306';
 ### Finally Setup Done!!!
 ![alt text](../assets/dvwasetupdone.png)
 
+#### Running DVWA
+```
+┌──(dp㉿kali)-[~]
+└─$ systemctl stop mysql  
+                                               
+┌──(dp㉿kali)-[~]
+└─$ sudo /opt/lampp/lampp restart
+```
+
+### DVWA Practice Rule
+1. Low - Easy to hack, basic cyber stuff.
+2. Medium 
+3. High
+4. Impossible
+- Hacking `Low`, `Medium` should be basic skill.
+- Hacking `Hard` is needed.
+- Hacking `Impossible` is a good thing. `Tbh, it's impossible - good scope for learning mitigations.`
+
+Go through all vulnerabilities and try to solve all the levels in each vulnerability.  
+**_Always look for case sensitive and case-insensitive._**
+
 > - Download DVWA: https://github.com/digininja/DVWA
 > - Download XAMPP: https://www.apachefriends.org/
 > - Installing on Kali Linux XAMPP, DVWA... - https://www.youtube.com/watch?v=JkCuCf41aYc

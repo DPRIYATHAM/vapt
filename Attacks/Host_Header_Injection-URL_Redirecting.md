@@ -15,3 +15,8 @@
 4. HTTP Strict Transport Security
 5. Regular Security Audits
 
+### Methods
+- Change the Request/Responses from BurpSuite
+    - X-Forwarded-Host - Changing this
+    - Repeater - Editing the request and response
+- URL Tampering - Changing URL params to redirect to malicous site.
