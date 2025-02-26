@@ -13,4 +13,8 @@
 7. [Server Side Request Forgery - SSRF](ssrf.md)
 8. [XML External Entity - XXE](xxe.md)
 9. [ClickJacking](clickjacking.md)
-10. [2FA](2fa.md)
+10. [Broken Access Control - BAC](bac.md)
+11. [Path/Directory Traversal](path.md)
+12. [2FA](2fa.md)
+
+Reference:  https://www.youtube.com/playlist?list=PLGH1xiL-41XC7ugTfCGV3M7OeGk8yXStN
