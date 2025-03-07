@@ -97,3 +97,4 @@ Reason for using VM:
 7. OWASP CheckList - [Pentest CheckList](https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Web_Application_Penetration_Checklist_v1_1.pdf)
 8. OWASP Web CheckList - [Checklist By 0xRadi](https://github.com/0xRadi/OWASP-Web-Checklist)
 9. Webapp CheckList - [Checklist By Hari](https://github.com/Hari-prasaanth/Web-App-Pentest-Checklist)
+10. Security Checklist for Web Developers - [Checklist By Appsecure](https://www.appsecure.security/blog/security-checklist-for-web-developers)
